@@ -131,18 +131,6 @@ int	main(void)
 			size ++;
 			count = 0;
 		}
-		
-		i = 0;
-		printf("size = %d\n", size);
-		while (i < N * N)
-		{
-			printf("%d ", *(arr + i));
-			if (i % N == N - 1)
-				printf("\n");
-			i ++;
-		}
-		printf("\n\n");
-		
 	}
 	printf("%d", time);
 	return (0);
