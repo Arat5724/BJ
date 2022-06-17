@@ -35,7 +35,7 @@ int	aply(int *queue, int front, int back, int *arr, int N, int size, int *map, i
 		dis = now / 1000;
 		index = now % 1000;
 	}
-	if (*(arr + index) && *(arr + index) < size)
+	if (*(arr + index) && *(arr + index) < size && *(arr + index) != 9)
 		return (now);
 	else
 	{
